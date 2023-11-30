@@ -24,8 +24,8 @@ describe('Working with webelements', () => {
             cy.log(str);
         });
         cy.get('input[name="first_name"]').invoke('prop','name').then((el)=>{
-            cy.log(el)
-        })
+            cy.log(el);
+        });
 
 
     });
